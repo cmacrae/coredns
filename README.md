@@ -4,10 +4,17 @@
 [![Build Status](https://img.shields.io/travis/coredns/coredns/master.svg?label=build)](https://travis-ci.org/coredns/coredns)
 [![fuzzit](https://app.fuzzit.dev/badge?org_id=coredns&branch=master)](https://fuzzit.dev)
 [![Code Coverage](https://img.shields.io/codecov/c/github/coredns/coredns/master.svg)](https://codecov.io/github/coredns/coredns?branch=master)
-[![Docker Pulls](https://img.shields.io/docker/pulls/coredns/coredns.svg)](https://hub.docker.com/r/coredns/coredns)
+[![Docker Pulls](https://img.shields.io/docker/pulls/cmacrae/coredns.svg)](https://hub.docker.com/r/cmacrae/coredns)
 [![Go Report Card](https://goreportcard.com/badge/github.com/coredns/coredns)](https://goreportcard.com/report/coredns/coredns)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1250/badge)](https://bestpractices.coreinfrastructure.org/projects/1250)
+[![XII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1250/badge)](https://bestpractices.coreinfrastructure.org/projects/1250)
+# About this fork
+This project tracks releases of [coredns/coredns](https://github.com/coredns/coredns), and adds some customisations.
 
+## Current differences
+See the [changelog](CHANGELOG.md)  
+- Built with [fallback plugin](https://coredns.io/explugins/fallback/)
+
+# About
 CoreDNS is a DNS server/forwarder, written in Go, that chains [plugins](https://coredns.io/plugins).
 Each plugin performs a (DNS) function.
 
