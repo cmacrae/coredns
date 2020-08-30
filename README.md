@@ -12,7 +12,7 @@ This project tracks releases of [coredns/coredns](https://github.com/coredns/cor
 
 ## Current differences
 See the [changelog](CHANGELOG.md)  
-- Built with [fallback plugin](https://coredns.io/explugins/fallback/)
+- Built with [alternate plugin](https://github.com/coredns/alternate)
 
 # About
 CoreDNS is a DNS server/forwarder, written in Go, that chains [plugins](https://coredns.io/plugins).
